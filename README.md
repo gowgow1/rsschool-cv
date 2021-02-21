@@ -1,2 +1,1 @@
-# rsschool-cv
-my personal cv
+https://gowgow1.github.io/rsschool-cv/cv
