@@ -55,11 +55,33 @@ h6 {
   background: linear-gradient(45deg, #9890e3, #b1f4cf);
   padding-top: 20px;
 }
-.aboutme {
-  margin-bottom: 50px;
-}
 
-.article {
+.aboutme {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.offer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.skills {
+  margin: 0 auto;
+  justify-content: auto;
+}
+.skill {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+}
+.goals {
+  text-align: center;
+}
+.skiltext {
+  margin-top: 10px;
+  color: purple;
+}
+.ref:hover {
+  color: orange;
 }
