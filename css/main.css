@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #3f3c4d;
+}
+.header {
+  background: linear-gradient(45deg, #30cfd0, #330867);
+  padding: 20px 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont {
+  color: black;
+  text-decoration: none;
+}
+.cont:hover {
+  color: orange;
+}
+
+.about {
+  background: linear-gradient(45deg, #9890e3, #b1f4cf);
+  padding-top: 20px;
+}
