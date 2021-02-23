@@ -55,3 +55,11 @@ h6 {
   background: linear-gradient(45deg, #9890e3, #b1f4cf);
   padding-top: 20px;
 }
+.aboutme {
+  margin-bottom: 50px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+}
