@@ -116,7 +116,7 @@ h2 {
 }
 
 .codewars {
-  background: url(./img/cw.ico) no-repeat left;
+  background: url(/img/cw.ico) no-repeat left;
   background-size: 20px 20px;
   height: 30px;
   padding-left: 30px;
@@ -135,7 +135,7 @@ h2 {
   flex-direction: column;
 }
 .learnjs {
-  background: url(./img/learn.png) no-repeat left;
+  background: url(/img/learn.png) no-repeat left;
   background-size: 20px 20px;
   height: 30px;
   padding-left: 30px;
