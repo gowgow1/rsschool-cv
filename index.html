@@ -5,57 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
-    <title>mycv</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Trocchi&display=swap" rel="stylesheet">
+    <title>CVsite</title>
 </head>
 <body>
-    <header id="header" class="header">
+    <header id = "header" class="header">
         <div class="container">
-            <div class="wrapper">
-                <div class="name">
-                    <h1 class="myname">Alexander Shelkowskiy</h1>    
+            <a href="https://rs.school/js/" target="_blank" class="logo"><img src="img/rs_school.svg" alt="logo" class="logo"></a>
+        </div>
+    </header>
+    <main id = "main" class="main">
+        <article id = "article" class = "container">
+            <section class="sectionone">
+                <figure class="photoname">
+                    <img src="/img/IMG_7194.jpg" alt="myphoto" class="myphoto">
+                    <h1 class="name">alexander shalkowskiy</h1>
+                </figure>
+                <div class="economist">
+                    <p class="economic">JUNIOR DEVELOPER</p>
+                    <h2>Contact Details</h2>
+                    <ul class="contacts">
+                        <li>
+                            <a href="tel:+124-456-768" class="tel">Home: 124-456-768</a>
+                        </li>
+                        <li>
+                            <a href="tel: +375 29 209 22 29" class="mobile">Mobile: 375-29-209-22-29</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mail">gow_gow1@mail.ru</a>
+                        </li>
+                        <li>
+                            <a href="#" class="adress">23 Anywhere Street, Any City, State, Country 12345,there my home</a>
+                        </li>
+                    </ul>
+                    <h2>Core Competencies</h2>
+                    <p>
+                        Ability to effectively work with teammate, as well as co-writing quality code
+                    </p>
                 </div>
-                <div class="contacts">
-                    <div class="telephone">
-                        <a href="tel:+18938392364" class="cont">+375292095360</a>      
+
+            </section>
+            <section class="sectiontwo">
+                <div class="proffesional summary">
+                    <h2>Proffesional Summary</h2>
+                    <p> A beginner developer with excellent practical skills acquired during the 
+                    development of educational projects. Motivated and enthusiastic to create a good project.</p>
+                </div>
+                <div class="education">
+                    <h2 class="ed">Education History</h2>
+                    <h3>Online Resources:</h3>
+                    <div class="educ">
+                        <div class="codewars">
+                            <a href="https://www.codewars.com/users/gow_gow1" class="ref">Сode Wars 4 kuy</a>
+                        </div>
+                        <div class="learnjs">
+                            <a href="https://learn.javascript.ru/" class="ref">Basic JS</a>
+                        </div>
                     </div>
-                    <div class="telegram">
-                        <a href="telegram:@shelkowskiy" class="cont">@shelkowskiy</a>
-                    </div>
-                    <div class="email">
-                        <a href="https://gowgow1@mail.ru/" class ="cont">gow_gow1@mail.ru</a>
-                    </div>
+                </div>
+                <div class="prew">
+                    <h2>Preview Code</h2> 
+<pre>
+<code>function req(i){<br>
+  if (i == 1){return i}
+  return i + req(i - 1)} </code>  
+</pre>
+                </div>
+                <div class="english">
+                    <h2>English</h2>
+                    <p>A2 - Elementary</p>
+                </div>
+                <div class="skil">
+                    <h2>Skills and Abilities</h2>
+                    <ul class="skills">
+                        <li>
+                            <img src="/img/js.svg" alt="js" height="40px" weight="40px">
+                        </li>
+                        <li>
+                            <img src="/img/html.svg" alt="html" height="40px" weight="40px">
+                        </li>
+                        <li>
+                            <img src="/img/ph.png" alt="photoname" height="40px" weight="40px">
+                        </li>
+                        <li>
+                            <img src="/img/css.png" alt="css" height="40px" weight="40px">
+                        </li>
+                        <li>
+                            <img src="/img/python.svg" alt="python" height="40px" weight="40px">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="foot">
+                <div class="github">
+                    <a href="https://github.com/gowgow1" class="account">
+                        <img src="/img/github-logo-face-pngrepo-com.png" alt="git" height="50px" width="50px">
+                        <p class="account">gowgow1</p>
+                    </a>
+                </div>
+                <div>
+                    <h3>03.2021</h3>
                 </div>
             </div>
         </div>
-    </header>
-    <main class = "about">
-        <article class="container">
-            <h2 class="aboutme">About me</h2>
-            <div class="offer">
-                <div class="skills">
-                    <div class="skill">
-                        <h3 class="goals">My goals</h3>
-                        <p class="skiltext">my goal is to create and not destroy anything</p>
-                    </div>
-                    <div class="skill">
-                        <h3 class="goals">My skills</h3>
-                        <p class="skiltext"> html, css, js, python(basic), github, visual studio,sublime.</p>
-                    </div>
-                    <div class="skill">
-                        <h3 class="goals">My code</h3>
-                        <p class="skiltext">
-                            <code>function req(i) { if (i == 1){return i} ; return i + req( i - 1 ) } </code>
-                        </p>
-                    </div>
-                    <div class="skill">
-                        <h3 class="goals">My education</h3>
-                        <a href="https://www.codewars.com/users/gow_gow1" class="ref">CODEWARS 4 KUY</a>
-                    </div>               
-                </div>
-                <img src="img/1.png" alt="myphoto">
-            </div>    
-        </article>
-    </main>
+    </footer>
 </body>
 </html>
