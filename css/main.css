@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--textcolorlighter);
+  font-size: 23px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #89e9dc,
+    #90ebde,
+    #97ede0,
+    #9eeee3,
+    #a5f0e5,
+    #a1f2e6,
+    #9df4e7,
+    #99f6e8,
+    #88f8e8,
+    #74fbe7,
+    #5cfde7,
+    #39ffe6
+  );
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li,
+figure {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Trocchi", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.logo {
+  height: 50px;
+  align-items: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.myphoto {
+  height: 300px;
+  width: 300px;
+}
+.sectionone {
+  border-right: 3px solid black;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+#article {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.name {
+  margin-top: 0px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.photoname {
+  margin: 0;
+}
+.contacts {
+  padding-inline-start: 0px;
+}
+.contacts li a {
+  text-decoration: none;
+  color: black;
+}
+.contacts li {
+  list-style-type: none;
+}
+
+.sectiontwo {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.codewars {
+  background: url(../img/cw.ico) no-repeat left;
+  background-size: 20px 20px;
+  height: 30px;
+  padding-left: 30px;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.educ {
+  padding-left: 25px;
+}
+
+.learnjs {
+  background: url(../img/learn.png) no-repeat left;
+  background-size: 20px 20px;
+  height: 30px;
+  padding-left: 30px;
+  padding-top: 4px;
+}
+.education h3 {
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 320px;
+  padding-left: 0;
+}
+
+.footer {
+  padding: 50px 0;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.account p {
+  padding-left: 5px;
+  margin: 0 0;
+}
+
+.account {
+  text-decoration: none;
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  height: 40px;
+}
+.it {
+  margin-bottom: 20px;
+}
+
+.href:hover {
+  color: rgb(255, 0, 149);
+  cursor: pointer;
+}
